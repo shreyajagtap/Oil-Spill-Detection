@@ -1,0 +1,85 @@
+# =========================
+# Python Cache & Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Data (IMPORTANT - large files)
+# =========================
+data/
+!data/README.md
+
+# =========================
+# Model Weights (VERY LARGE)
+# =========================
+models/
+*.pt
+*.pth
+*.h5
+
+# =========================
+# Outputs (Generated Results)
+# =========================
+outputs/
+outputs/*
+!outputs/.gitkeep
+
+# =========================
+# Streamlit Cache
+# =========================
+.streamlit/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Markdown reports (optional)
+# =========================
+PROJECT_REPORT.md
+
+# =========================
+# System / Hidden
+# =========================
+.claude/
